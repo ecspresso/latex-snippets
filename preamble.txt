@@ -1,0 +1,6 @@
+% Preamble
+\documentclass[11pt]{article}
+\title{Title\\More title}
+\author{First and last name}
+\date{\today}
+\setcounter{secnumdepth}{0} % don't number secions
