@@ -1,0 +1,15 @@
+% Inte testat ännu
+\usepackage{hyperref}
+
+\tableofcontents
+\section{Första sektionen} \label{sec:1}
+\section{Andra sektionen} \label{sec:2}
+\section{Tredje sektionen} \label{sec:3}
+
+\newpage % eller var som helst du vill ha en sidbrytning
+
+\section*{Innehållsförteckning}
+\addcontentsline{toc}{section}{Innehållsförteckning}
+\hyperref[sec:1]{Första sektionen} \par
+\hyperref[sec:2]{Andra sektionen} \par
+\hyperref[sec:3]{Tredje sektionen} \par
